@@ -22,3 +22,19 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Zero-Installs 설정
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+# Yarn 관련 임시 파일 및 캐시 제외
+.yarn/install-state.gz
+.yarn/build-state.yml
+.yarn/unplugged
+
+# 이 파일은 무시해야 합니다
+.pnp.*
