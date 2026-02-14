@@ -1,0 +1,7 @@
+{
+  "name": "Semicolon",
+  "packageManager": "yarn@4.12.0",
+  "dependencies": {
+    "aos": "^2.3.4"
+  }
+}
